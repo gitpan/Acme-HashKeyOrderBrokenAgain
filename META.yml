@@ -3,22 +3,22 @@ abstract: 'Request reproducable hash keys order within a script and verify if Pe
 author:
   - 'Mike Schilli <m@perlmeister.com>'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: '0'
 configure_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.130880'
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141170'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Acme-HashKeyOrderBrokenAgain
 no_index:
   directory:
     - t
     - inc
 requires:
-  Test::Simple: 0.31
+  Test::Simple: '0.31'
 resources:
   repository: http://github.com/mschilli/acme-hashkeyorderbrokenagain-perl
-version: 0.01
+version: '0.02'
